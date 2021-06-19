@@ -41,8 +41,8 @@
         android:layout_marginTop="16dp"
         android:fontFamily="sans-serif-light"
         android:text="@string/happy_birthday_text"
-        android:textColor="@android:color/white"
-        android:textSize="36sp"
+        android:textColor="#0F2537"
+        android:textSize="30sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -54,8 +54,8 @@
         android:layout_marginBottom="16dp"
         android:fontFamily="sans-serif-light"
         android:text="@string/signature_text"
-        android:textColor="@android:color/white"
-        android:textSize="36sp"
+        android:textColor="?android:attr/colorForeground"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
